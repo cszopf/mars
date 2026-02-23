@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mars: #BC3E28;
+  --color-mars-light: #E27B58;
+  --font-montserrat: var(--font-montserrat);
+  --font-inter: var(--font-inter);
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat;
+  }
+}
+
+.glass-panel {
+  @apply bg-white/80 backdrop-blur-md border border-black/5;
+}
+
+.mars-gradient {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+}
+
+.mars-text-gradient {
+  background: linear-gradient(to right, #ffffff, #BC3E28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
