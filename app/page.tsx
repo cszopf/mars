@@ -6,7 +6,7 @@ import { motion } from 'motion/react';
 import { Shield, ArrowRight, Globe, MapPin, Home, Key, Orbit, Satellite, Layers, Database, Telescope, Building } from 'lucide-react';
 import NetSheetCalculator from '@/components/NetSheetCalculator';
 
-const LOGO_URL = "https://thatsmart.s3.us-east-2.amazonaws.com/faab54cf-aecf-4d18-af05-0da8d66ff18a-blob?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA4IENJYES6GUQDCHL%2F20260219%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T014936Z&X-Amz-Expires=604700&X-Amz-Signature=1b287d87e438f93f01fd0f9ab8fa4c4fb88321247900bfdc1cc8536fe577a156&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject";
+const LOGO_URL = "https://images.squarespace-cdn.com/content/v1/5f4d40b11b4f1e6a11b920b5/1598967776211-2JVFU1R4U8PQM71BWUVE/WorldClassTitle_Logos-RGB-Primary.png?format=1500w";
 
 export default function LandingPage() {
   return (
